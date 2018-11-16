@@ -1,7 +1,7 @@
 
 jobs:
     main:
-       annotations:
+        annotations:
            screwdriver.cd/buildCluster: gq1
         requires: [~commit, ~pr]
         image: node:6
