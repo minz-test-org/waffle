@@ -3,7 +3,7 @@ jobs:
     main:
         annotations:
            screwdriver.cd/buildCluster: gq1
-           screwdriver.cd/collapseBuilds: false
+           screwdriver.cd/collapseBuilds: true
         requires: [~commit, ~pr]
         image: node:6
         steps:
